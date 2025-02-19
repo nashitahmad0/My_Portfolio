@@ -1,0 +1,90 @@
+
+.contact-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #34abd3;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+/* Contact section */
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  
+  width: 75%;
+  max-width: 80rem;
+  margin-left:auto ;
+  margin-right: auto ;
+  background-color: #f4f4f4; 
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-detail {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.sub-heading{
+  font-size: 30px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #df8908 80%, #b415ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.connect {
+  font-size: 1.4rem;
+  height: 200px;
+  text-align: center;
+  align-content:center ;
+  width: 80%;
+}
+
+.connect svg{
+  align-items: center;
+}
+
+.contact-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px; 
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #34abd3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2a8c9b;
+}
